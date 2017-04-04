@@ -24,3 +24,12 @@ div.navbar-header a.navbar-brand {
   		width: 85%;
 	}
 }
+div.navbar.navbar-inverse.navbar-fixed-top{
+	background-image: none;
+	background-color: rgb(212,0,0);
+}
+
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+
