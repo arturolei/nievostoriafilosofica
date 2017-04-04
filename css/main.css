@@ -1,5 +1,6 @@
 body{
 	padding-top: 100px;
+	/*position: relative;*/
 }
 
 div.navbar-header a.navbar-brand {
@@ -33,6 +34,3 @@ div.navbar.navbar-inverse.navbar-fixed-top{
 	color:white;
 }
 
-#transintro {
-	padding-bottom: 150px;
-}

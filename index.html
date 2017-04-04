@@ -23,8 +23,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
+<!--<body data-spy="scroll" data-target=".navbar">*/-->
 <body>
-
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -38,22 +38,22 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
+            <li class="active"><a href="#about">About</a></li>
             <li><a href="#transintro-link">Translator's Preface</a></li>
             <li><a href="#introduction">Introduction</a></li>
+             <li><a href="#book1">Book I</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 <div class="container" >
 
-      <div class="starter-template" >
+      <div class="starter-template" id = "#transintro-link">
         <h1>TRANSLATOR'S PREFACE</h1>
         <p>
         	Although he is best remembered (if at all) for his ambitious Le confessioni d'un Italiano and despite his short life, Italian patriot Ippolito Nievo (1831-1861) was a prolific writer of many styles and many genres. Before his mysterious disappearance at sea in 1861, Nievo had authored dozens of short stories and articles,  two historical dramas, a collection of political poems, and at least two novels in addition to the aforementioned Le confessioni d'un Italiano.   Nievo's work ranges from the satiric to the patriotic, and just as his oeuvre reflected diversity, so did his life experiences. Nievo wrote for periodicals with the likes of Scapigliati such as Cletto Arrighi, and he also served with Garibaldi on his famous expedition of the Mille in the struggle for Italian Unification. 
 
         </p>
-        <span id="transintro-link"></span>
         <p>
         	Alas, Nievo has suffered the fate of many Italian writers in that his work has ever left the Italophone sphere. Nievo has not been translated in the English speaking world until only recently. In fact, it was not until this year that a complete translation of Le confession d'un Italiano was published. The previous translation of this novel was an abridged translation in 1957, now long out-of-print.
         </p>
@@ -91,16 +91,24 @@
         </p>
       </div>
     </div><!-- /.container -->
+<div class="container" >
 
+      <div class="starter-template" id = "#book1">
+        <h1>BOOK I: FROM THE PEACE OF ZURICH TO THE PACE OF LJUBLJANA</h1>
+        <p>
+        	Although he is best remembered (if at all) for his ambitious Le confessioni d'un Italiano and despite his short life, Italian patriot Ippolito Nievo (1831-1861) was a prolific writer of many styles and many genres. Before his mysterious disappearance at sea in 1861, Nievo had authored dozens of short stories and articles,  two historical dramas, a collection of political poems, and at least two novels in addition to the aforementioned Le confessioni d'un Italiano.   Nievo's work ranges from the satiric to the patriotic, and just as his oeuvre reflected diversity, so did his life experiences. Nievo wrote for periodicals with the likes of Scapigliati such as Cletto Arrighi, and he also served with Garibaldi on his famous expedition of the Mille in the struggle for Italian Unification. 
+        </p>
+      </div>
+    </div><!-- /.container -->
 <script>
 	$(function () {
     $('[data-toggle="popover"]').popover(
     {
       trigger: 'focus'
     }
-
       )
   })
+
 </script>
 </body>
 
